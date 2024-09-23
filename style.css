@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Lexend", sans-serif;
+}
+
+
+.btn-main{
+    border-radius: 0.5rem;
+    background-color: rgb(180, 244, 97);
+}
+
+.btn-text-main{
+    color: #111111;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.btn-secondary{
+    background-color: transparent;
+    border: 1px solid rgba(17, 17, 17, 0.3);
+    border-radius: 0.5rem;
+}
+
+.description{
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.amountInput{
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 8px;
+    padding: 18px;
+}
+
+.cardBorder{
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 16px;
+}
+
+.totalCollected{
+    border-radius: 8px;
+    background: rgba(17, 17, 17, 0.05);
+    font-size: 1rem;
+    color: rgba(17, 17, 17, 0.7);
+    font-weight: 400; 
+    padding: 10px 16px;
+}
