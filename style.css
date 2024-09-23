@@ -11,6 +11,7 @@ body{
 
 
 .btn-main{
+    border: none;
     border-radius: 0.5rem;
     background-color: rgb(180, 244, 97);
 }
@@ -21,10 +22,11 @@ body{
     font-size: 1.25rem;
 }
 
-.btn-secondary{
-    background-color: transparent;
+.btn-inactive{
     border: 1px solid rgba(17, 17, 17, 0.3);
     border-radius: 0.5rem;
+    color: rgba(17, 17, 17, 0.7);
+    font-weight: 500;
 }
 
 .description{
@@ -51,4 +53,26 @@ body{
     color: rgba(17, 17, 17, 0.7);
     font-weight: 400; 
     padding: 10px 16px;
+}
+
+.historyCard{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+	border-radius: 1rem;
+    width: 100%;
+}
+
+.historyCard h1{
+    color: rgb(17, 17, 17);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.historyCard p{
+    color: rgba(17, 17, 17, 0.7);
+    font-size: 1rem;
+    font-weight: 300;    
 }
