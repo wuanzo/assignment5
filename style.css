@@ -78,3 +78,11 @@ body{
     font-weight: 300;    
 }
 
+.donateNowBtns{
+    transition: all 0.15s ease-in;
+}
+
+.donateNowBtns:hover{
+    background-color: rgba(180, 244, 97, 0.6);
+}
+
