@@ -8,13 +8,17 @@ document.querySelectorAll("input").forEach(inputField => inputField.value = "");
 const cards = document.getElementById("Cards");
 
 cards.addEventListener("click", function(eve){
-    if(eve.target.matches("button")){
+    if(eve.target.matches(".donateNowBtns")){
         handleDonations(eve.target);
     }
 })
 
 function handleDonations(btn){
     const inputFieldValue = btn.parentNode.children[0].value;
+    if(inputFieldValue == ""){
+        handleAlerts("-1");
+        return;
+    }
     for(const char of inputFieldValue){
         if(isNaN(char) || char == " "){
             handleAlerts("-1")
