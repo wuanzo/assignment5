@@ -12,7 +12,7 @@
 <body class="max-w-[1440px] flex flex-col items-center mx-auto">
     
         <!-- navbar -->
-        <header class="w-full max-w-[1240px]lg:pt-6 lg:pb-8 pt-4 pb-4 sm:sticky top-0 flex flex-col lg:gap-[120px] gap-2 backdrop-blur-xl px-4">
+        <header class="w-full max-w-[1240px]lg:pt-6 lg:pb-8 pt-4 pb-4 sm:sticky top-0 flex flex-col lg:gap-[80px] gap-2 backdrop-blur-xl px-4">
         
             <div class="flex justify-between">
                 <div class="">
@@ -198,7 +198,7 @@
                         </g>
                     </svg>
     
-                    <span id="currentBalance" class="btn-text-main font-medium">3200</span>
+                    <span id="currentBalance" class="btn-text-main font-medium">69420</span>
                     
                 </div>
             </div>
@@ -233,12 +233,15 @@
                     How do you select an element from the DOM?
                 </div>
                 <div class="collapse-content">
-                  <p>There are five methods for accessing elements in a document: <br>
-                    - document.getElementById(id) <br>
-                    - document.getElementsByClassName(className) <br>
-                    - document.getElementsByTagName(tagName) <br>
-                    - document.querySelector(cssSelector) <br>
-                    - document.querySelectorAll(cssSelector)</p>
+                  <p>There are five methods for accessing elements in a document:
+                    <ul>
+                        <li>- getElementById(id)</li>
+                        <li>- getElementsByClassName(className)</li>
+                        <li>- getElementsByTagName(tagName)</li>
+                        <li>- querySelector(cssSelector)</li>
+                        <li>- querySelectorAll(cssSelector)</li>
+                    </ul>
+                    </p>
                 </div>
             </div>
 
@@ -248,7 +251,7 @@
                     What is event delegation in the context of the DOM, and why is it useful?
                 </div>
                 <div class="collapse-content">
-                  <p>Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated. It allows us to attach a single event listener for elements that exist now or in the future.</p>
+                  <p>Event delegation refers to the process of using event propagation (event-bubbling) to handle events at a higher level in the DOM than the element on which the event was triggered. It allows us to attach a single event listener for elements that exist in multiple levels.</p>
                 </div>
             </div>
 
@@ -259,7 +262,7 @@
                 </div>
                 <div class="collapse-content">
                   <p>
-                    You can manipulate an element's attributes using setAttribute(), getAttribute(), or removeAttribute(). To modify styles, use element.style.property to directly set CSS or use classList methods like add(), remove(), or toggle() to manage CSS classes.
+                    We can manipulate an element's attributes using setAttribute(), getAttribute(), or removeAttribute(). To modify styles, use element.style.property to directly set CSS or use classList methods like add(), remove(), or toggle() to manage CSS classes.
                   </p>
                 </div>
             </div>

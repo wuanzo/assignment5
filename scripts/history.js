@@ -1,6 +1,5 @@
 const historyBtn = document.getElementById("historyBtn");
 const donationBtn = document.getElementById("donationBtn");
-const cards = document.getElementById("Cards");
 const historySection = document.getElementById("historySection");
 
 historyBtn.addEventListener("click", function() {

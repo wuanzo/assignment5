@@ -11,7 +11,7 @@
 </head>
 <body class="max-w-[1440px] flex flex-col items-center mx-auto">
     
-    <header class="w-full max-w-[1240px]lg:pt-6 lg:pb-8 pt-4 pb-4 sticky top-0 flex flex-col lg:gap-[120px] gap-2 backdrop-blur-xl px-4">
+    <header class="w-full max-w-[1240px]lg:pt-6 lg:pb-8 pt-4 pb-4 sticky top-0 flex flex-col lg:gap-[80px] gap-2 backdrop-blur-xl px-4">
         
         <div class="flex justify-between items-center">
             <div class="">
@@ -198,14 +198,14 @@
                     </g>
                 </svg>
 
-                <span id="currentBalance" class="btn-text-main font-medium">3200</span>
+                <span id="currentBalance" class="btn-text-main font-medium">69420</span>
                 
             </div>
         </div>
 
         <section id="btnContainer" class="btnContainer lg:flex lg:justify-center grid grid-cols-2 gap-4">
-            <button id="donationBtn" class="btn h-auto min-h-full btn-main btn-text-main px-8 py-4">Donation</button>
-            <button id="historyBtn" class="btn h-auto min-h-full btn-inactive btn-text-main px-8 py-4">History</button>
+            <button id="donationBtn" class="btn h-auto min-h-0 w-full lg:max-w-[157px] btn-main btn-text-main px-8 py-4">Donation</button>
+            <button id="historyBtn" class="btn h-auto min-h-0 w-full lg:max-w-[157px] btn-inactive btn-text-main px-8 py-4">History</button>
         </section>
 
     </header>
@@ -227,7 +227,7 @@
 
                             <img src="assets/coin.png" alt="">
                             <span>
-                                <span id="totalCollectedFlood" class="">420</span> <span>BDT</span>
+                                <span id="totalCollectedNoakhali" class="">42000</span> <span>BDT</span>
                             </span>
                         </div>
                     </div>
@@ -242,8 +242,8 @@
     
     
                     <div class="flex flex-col gap-4">
-                        <input type="text" placeholder="Write Donation Amount" class="amountInput w-full">
-                        <button class="btn-main btn-text-main w-full px-8 py-4">Donate Now</button>
+                        <input id="amountNoakhali" type="text" placeholder="Write Donation Amount" class="amountInput w-full">
+                        <button id="donateToNoakhali" class="btn-main btn-text-main w-full px-8 py-4">Donate Now</button>
                     </div>
     
     
@@ -262,7 +262,9 @@
                         <div class="flex items-center gap-2 totalCollected">
 
                             <img src="assets/coin.png" alt="">
-                            <span id="totalCollectedFlood" class="">420 BDT</span>
+                            <span>
+                                <span id="totalCollectedFeni" class="">69000</span> <span>BDT</span>
+                            </span>
                         </div>
                     </div>
 
@@ -296,7 +298,9 @@
                         <div class="flex items-center gap-2 totalCollected">
 
                             <img src="assets/coin.png" alt="">
-                            <span id="totalCollectedFlood" class="">2400 BDT</span>
+                            <span>
+                                <span id="totalCollectedQuota" class="">54000</span> <span>BDT</span>
+                            </span>
                         </div>
                     </div>
 
@@ -322,7 +326,7 @@
         </section>
 
         <!-- history section  -->
-        <section class="hidden flex-col gap-6" id="historySection">
+        <section class="hidden flex-col gap-6 px-4 lg:px-0" id="historySection">
             <div class="historyCard">
                 <h1>96500 Taka is Donated for famine-2024 at Feni, Bangladesh</h1>
                 <p>Date : Tue Sep 17 2024 08:39:11 GMT +0600 (Bangladesh Standard Time)</p>
