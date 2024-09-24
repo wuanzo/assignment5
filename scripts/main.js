@@ -38,6 +38,8 @@ function handleDonations(btn){
         const title = btn.parentNode.parentNode.children[1].children[0].innerText;
         handleHistory(donationAmount, title);
         btn.parentNode.children[0].value = "";
+
+        document.querySelector("#my_modal_5").showModal();
     }
     else if(donationAmount < 0){
         handleAlerts("-1");
@@ -53,7 +55,7 @@ function handleHistory(donationAmount, title){
     newCard.classList.add("historyCard");
     newCard.innerHTML = `<h1>${donationAmount} Taka Donated to "${title}"</h1>
                          <p>Date: ${time}</p>`;
-    document.querySelector("#historySection").appendChild(newCard);                     
+    document.querySelector("#historySection").prepend(newCard);                     
 }
 
 function handleBalance(donationAmount){
